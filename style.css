@@ -36,12 +36,24 @@ main {
     margin: 3% 5%;
 }
 
+/* separação dos tópicos, com espaçamento entre cada seção */
 .sub_conteudo {
     display: flex;
-    padding: 0.2%;
+    padding: 1.5% 0.4%;
     justify-content: space-between;
 }
 
+/* estilização de cada tópico (título, definição e exemplo) - cor de fundo, margem, espaçamento 
+interno, largura e arredondamento da borda */
+.sub_conteudo > div {
+    background-color: rgba(34, 109, 79, 0.767);
+    margin: 1%;
+    padding: 2%;
+    width: 35%;
+    border-radius: 10px;
+}
+
+/* estilização do rodapé - cor de fundo, espaçamento e alinhamento do texto */
 footer {
     background-color: rgba(34, 109, 79, 0.767);
     padding: 0.5%;
