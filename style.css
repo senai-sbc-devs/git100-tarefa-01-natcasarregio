@@ -1,0 +1,61 @@
+/* link das fontes usadas */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+/* definição da cor de fundo, fonte padrão, margem e cor das fontes */
+body {
+    background-color:rgba(45, 150, 108, 0.767);
+    font-family: 'Work Sans', sans-serif;
+    margin: -1.7% 0 0 0;
+    color:whitesmoke;
+}
+
+/* definição de fontes de títulos e parágrafo */
+h1, h2 {
+    font-weight: 700;
+}
+
+h3, h4 {
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* estilo do cabeçalho - cor de fundo e tamanho */
+header {
+    background-color: rgba(34, 109, 79, 0.767);
+    padding: 2.5% 3% 2% 3%;
+    text-align: center;
+
+}
+
+/* estilo do conteúdo - margem */
+main {
+    margin: 3% 5%;
+}
+
+/* separação dos tópicos, com espaçamento entre cada seção */
+.sub_conteudo {
+    display: flex;
+    padding: 1.5% 0.4%;
+    justify-content: space-between;
+}
+
+/* estilização de cada tópico (título, definição e exemplo) - cor de fundo, margem, espaçamento 
+interno, largura e arredondamento da borda */
+.sub_conteudo > div {
+    background-color: rgba(34, 109, 79, 0.767);
+    margin: 1%;
+    padding: 2%;
+    width: 35%;
+    border-radius: 10px;
+}
+
+/* estilização do rodapé - cor de fundo, espaçamento e alinhamento do texto */
+footer {
+    background-color: rgba(34, 109, 79, 0.767);
+    padding: 0.5%;
+    text-align: center;
+}
